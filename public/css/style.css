@@ -1,0 +1,52 @@
+li {
+    color: plum;
+    padding: 1rem;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 25rem;
+    box-shadow: 10px 10px 10px rgba(1, 29, 172, 0.193);
+}
+
+img {
+    width: 100%
+}
+
+a {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    color: plum;
+    padding: 0.3rem;
+    text-decoration: none;
+    background-color: rgba(137, 43, 226, 0.356);
+    border-radius: 5rem;
+}
+
+
+.poesia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 22rem;
+    height: 12rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+
+    
+}
