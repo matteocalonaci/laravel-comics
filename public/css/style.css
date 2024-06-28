@@ -1,6 +1,6 @@
 li {
     color: plum;
-    padding: 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .img-container {
@@ -18,7 +18,7 @@ img {
 
 a {
     position: absolute;
-    bottom: 1rem;
+    bottom: -13rem;
     right: 1rem;
     color: plum;
     padding: 0.3rem;
@@ -42,11 +42,24 @@ a {
 
 .card{
     width: 22rem;
-    height: 12rem;
+    height: 25rem;
     margin: 1rem;
     display: flex;
     justify-content: center;
     align-items: start;
+    background-color: rgba(255, 255, 255, 0.118);
 
     
+}
+
+.img_container{
+margin: 0 auto;
+    width: 10rem;
+    height: 12rem;
+    margin-bottom: 3rem;
+    box-shadow: 10px 10px 10px rgba(1, 29, 172, 0.193);
+}
+
+img{
+    width: 100%
 }
