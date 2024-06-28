@@ -21,18 +21,18 @@ Route::get('/home', function () {
             "Autore: Aka Akasaka",
             "Prezzo: €9.90",
         ],
-        "fumetto2" => 
+        "fumetto2" =>
         [
             "Titolo: Berserk",
             "Autore: Kentaro Miura",
             "Prezzo: €5.50",
-         
+
         ],
         "fumetto3" => [
             "Titolo: The Climber",
             "Autore: Shin'ickìhi Sakamoto",
             "Prezzo: €6.90",
-           
+
 
         ],
         "fumetto4" => [
@@ -50,14 +50,62 @@ Route::get('/home', function () {
             "Autore: Keigo Shinzo",
             "Prezzo: €6.90",
         ],
-        
+
     ];
     return view('home', $data);
 });
 
 Route::get('/about', function () {
     $data = [
-        "titolo" => "WELCOME LARAVEL COMICS pg2"
+        "titolo" => "WELCOME LARAVEL COMICS pg2",
+        "personaggi_oshi_no_ko" => [
+            "Acquamarine Hoshino",
+            "Ruby Hoshino",
+            "Kana Arima",
+            "Ai Hoshino",
+            "Akane Kurokawa",
+            "Mem-cho"
+        ],
+        "personaggi_berserk" => [
+            "Gatsu",
+            "Caska",
+            "Grifits",
+            "Serpico",
+            "Lady Farnese",
+            "Puck"
+        ],
+        "personaggi_the_climber" => [
+            "Buntaro Mori",
+            "Hajime Miyamoto",
+            "Masao Onishi",
+            "Yumi Shirai",
+            "Fukamoto",
+            "Hana Kato"
+        ],
+        "personaggi_20th_century_boys" => [
+            "Kenji Endo",
+            "Kana Endo",
+            "Yoshitsune",
+            "Otcho",
+            "L'Amico",
+            "Yukiji"
+        ],
+        "personaggi_monster" => [
+            "Dr. Kenzo Tenma",
+            "Nina Fortner",
+            "Johan Liebert",
+            "Heinrich Lunge",
+            "Klaus Poppe",
+            "Eva Heinemann"
+        ],
+        "personaggi_hirayasumi" => [
+            "Hiroto",
+            "Natsumi",
+            "Hideki",
+            "Yomogi",
+            "Riko Kawakami",
+            "Ishikawa"
+        ],
     ];
     return view('altro', $data);
 });

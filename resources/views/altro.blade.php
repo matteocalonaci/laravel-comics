@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
@@ -16,7 +15,64 @@
 <body style="background-color: rgb(0,8,47);">
     <h1 class="text-center p-1" style="color:red">{{ $titolo }}</h1>
     <hr style="color: white;">
- 
+
+    <div class="container">
+        <div class="card">
+        <h5>Personaggi <br> Oshi no ko</h5>
+        <ul>
+            @foreach ($personaggi_oshi_no_ko as $personaggio)
+            <li>{{ $personaggio }}</li>
+            @endforeach
+        </ul>
+        </div>
+
+        <div class="card">
+        <h5>Personaggi <br> Berserk</h5>
+        <ul>
+            @foreach ($personaggi_berserk as $personaggio)
+            <li>{{ $personaggio }}</li>
+            @endforeach
+        </ul>
+        </div>
+
+        <div class="card">
+        <h5>Personaggi The Climber</h5>
+        <ul>
+            @foreach ($personaggi_the_climber as $personaggio)
+            <li>{{ $personaggio }}</li>
+            @endforeach
+        </ul>
+        </div>
+
+        <div class="card">
+        <h5>Personaggi <br> 20th Century Boys</h5>
+        <ul>
+            @foreach ($personaggi_20th_century_boys as $personaggio)
+            <li>{{ $personaggio }}</li>
+            @endforeach
+        </ul>
+        </div>
+
+        <div class="card">
+        <h5>Personaggi <br> Monster</h5>
+        <ul>
+            @foreach ($personaggi_monster as $personaggio)
+            <li>{{ $personaggio }}</li>
+            @endforeach
+        </ul>
+        </div>
+
+        <div class="card">
+        <h5>Personaggi <br> Hirayasumi</h5>
+        <ul>
+            @foreach ($personaggi_hirayasumi as $personaggio)
+            <li>{{ $personaggio }}</li>
+            @endforeach
+        </ul>
+        </div>
+        
+    </div>
+
 
 </body>
 

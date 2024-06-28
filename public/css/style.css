@@ -63,3 +63,14 @@ margin: 0 auto;
 img{
     width: 100%
 }
+
+.container{
+    display: flex;
+}
+
+h5{
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 1rem;
+    color: blueviolet;
+}
