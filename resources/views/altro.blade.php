@@ -13,7 +13,7 @@
 <link href="/css/style.css" rel="stylesheet">
 
 <body style="background-color: rgb(0,8,47);">
-    <h1 class="text-center p-1" style="color:red">{{ $titolo }}</h1>
+    <h1 class="text-center p-1" style="color:red">{{ $titolo_pg2 }}</h1>
     <hr style="color: white;">
 
     <div class="container">
