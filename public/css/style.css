@@ -27,12 +27,6 @@ a {
     border-radius: 5rem;
 }
 
-
-.poesia {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .card_container{
     display: flex;
     justify-content: center;
@@ -73,4 +67,20 @@ h5{
     text-align: center;
     padding-bottom: 1rem;
     color: blueviolet;
+}
+
+/* inizio footer */
+
+footer {
+    background-color: rgba(137, 43, 226, 0.356);
+    height: 5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5rem;
+    font-size: 0.8rem;
+    color: plum;
+    margin-top: 2rem;
+}
+
+h6, p{
+    padding-left: 11rem;
 }
