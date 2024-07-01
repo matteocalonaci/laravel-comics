@@ -5,7 +5,7 @@
 @section('main-content')
 <h5 class="text-center p-1" style="color:red">{{$titolo_pg2}}</h5>
 
-<div class="container"  style="margin: 7.4rem 0;">
+<div class="container"  style="margin-top: 7.4rem; margin-bottom: 7.4rem;">
     @foreach($personaggi as $personaggio)
         <div class="card">
             
