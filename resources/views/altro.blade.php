@@ -13,64 +13,21 @@
 <link href="/css/style.css" rel="stylesheet">
 
 <body style="background-color: rgb(0,8,47);">
-    <h1 class="text-center p-1" style="color:red">{{ $titolo_pg2 }}</h1>
+    <h1 class="text-center p-1" style="color:red">{{"titolo_pg2"}}</h1>
     <hr style="color: white;">
 
     <div class="container">
+    @foreach($personaggi as $personaggio)
         <div class="card">
-        <h5>Personaggi <br> Oshi no ko</h5>
-        <ul>
-            @foreach ($personaggi_oshi_no_ko as $personaggio)
-            <li>{{ $personaggio }}</li>
-            @endforeach
-        </ul>
+            <li>{{$personaggio["main"]}}</li>
+            <li>{{$personaggio["altro1"]}}</li>
+            <li>{{$personaggio["altro2"]}}</li>
+            <li>{{$personaggio["altro3"]}}</li>
+            <li>{{$personaggio["altro4"]}}</li>
+            <li>{{$personaggio["altro5"]}}</li>
         </div>
-
-        <div class="card">
-        <h5>Personaggi <br> Berserk</h5>
-        <ul>
-            @foreach ($personaggi_berserk as $personaggio)
-            <li>{{ $personaggio }}</li>
-            @endforeach
-        </ul>
-        </div>
-
-        <div class="card">
-        <h5>Personaggi The Climber</h5>
-        <ul>
-            @foreach ($personaggi_the_climber as $personaggio)
-            <li>{{ $personaggio }}</li>
-            @endforeach
-        </ul>
-        </div>
-
-        <div class="card">
-        <h5>Personaggi <br> 20th Century Boys</h5>
-        <ul>
-            @foreach ($personaggi_20th_century_boys as $personaggio)
-            <li>{{ $personaggio }}</li>
-            @endforeach
-        </ul>
-        </div>
-
-        <div class="card">
-        <h5>Personaggi <br> Monster</h5>
-        <ul>
-            @foreach ($personaggi_monster as $personaggio)
-            <li>{{ $personaggio }}</li>
-            @endforeach
-        </ul>
-        </div>
-
-        <div class="card">
-        <h5>Personaggi <br> Hirayasumi</h5>
-        <ul>
-            @foreach ($personaggi_hirayasumi as $personaggio)
-            <li>{{ $personaggio }}</li>
-            @endforeach
-        </ul>
-        </div>
-        
+        @endforeach
+   </div>
     </div>
 
 

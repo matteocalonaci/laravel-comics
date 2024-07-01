@@ -13,18 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/home', function () {
-//     $data = ["manga" => config("storeprova")];
-       
-//     return view('home', $data);
-// });
+ Route::get('/home', function () {
+     $data = config("store");
+     return view('home', $data);
+ });
 
-Route::get('/home', function () {
-    $data = config("store");
-    return view('home', $data);
-});
-
-Route::get('/about', function () {
-    $data = config("store");
-    return view('altro', $data);
-});
+ Route::get('/about', function () {
+     $data = config("store");
+     return view('altro', $data);
+ });
