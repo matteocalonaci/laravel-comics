@@ -11,26 +11,14 @@
 </head>
 <!-- Styles -->
 <link href="/css/style.css" rel="stylesheet">
-
 <body style="background-color: rgb(0,8,47);">
-    <h1 class="text-center p-1" style="color:red">{{"titolo_pg2"}}</h1>
-    <hr style="color: white;">
+@include('partials.header')
 
-    <div class="container">
-    @foreach($personaggi as $personaggio)
-        <div class="card">
-            <li>{{$personaggio["main"]}}</li>
-            <li>{{$personaggio["altro1"]}}</li>
-            <li>{{$personaggio["altro2"]}}</li>
-            <li>{{$personaggio["altro3"]}}</li>
-            <li>{{$personaggio["altro4"]}}</li>
-            <li>{{$personaggio["altro5"]}}</li>
-        </div>
-        @endforeach
-   </div>
-    </div>
+<div>
+    @yield('main-content')
+</div>
 
+@include('partials.footer')
 
 </body>
-
 </html>

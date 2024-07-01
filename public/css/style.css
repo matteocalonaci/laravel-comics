@@ -1,7 +1,22 @@
 li {
     color: plum;
-    padding: 0.5rem 1rem;
     list-style: none;
+    padding-bottom: 0.5rem;
+}
+
+.links{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.price{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0.5rem;
+    background-color: antiquewhite;
+    color: black;
 }
 
 ul{
@@ -20,13 +35,10 @@ img {
 }
 
 a {
-    position: absolute;
-    bottom: -20rem;
-    right: 1rem;
     color: plum;
     padding: 0.3rem;
     text-decoration: none;
-    background-color: rgba(137, 43, 226, 0.356);
+    background-color: rgba(193, 126, 255, 0.356);
     border-radius: 5rem;
 }
 
@@ -39,7 +51,6 @@ a {
 
 .card{
     width: 22rem;
-    height: 28rem;
     margin: 1rem;
     background-color: rgba(255, 255, 255, 0.118);
 

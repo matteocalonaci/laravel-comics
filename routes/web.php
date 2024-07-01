@@ -16,9 +16,14 @@ use Illuminate\Support\Facades\Route;
  Route::get('/home', function () {
      $data = config("store");
      return view('home', $data);
- });
+ })->name("home");;
 
- Route::get('/about', function () {
+ Route::get('/personaggi', function () {
      $data = config("store");
-     return view('altro', $data);
- });
+     return view('personaggi', $data);
+ }) ->name("personaggi");
+
+ Route::get('/comics', function () {
+    $data = config("store");
+    return view('comics', $data);
+})->name("comics");
