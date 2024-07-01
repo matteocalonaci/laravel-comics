@@ -1,6 +1,20 @@
 <main>
 
 <div class="card_container">
+ <?php   
+
+  //  @foreach($manga as $fumetto)
+        //<div class="card">
+            //<div class="img_container">
+                //<img src="/img/oshi_no_ko.jpg" alt="">
+            //</div>
+           // <li>{{$fumetto["title"]}}</li>
+           // <li>{{$fumetto["Autore"]}}</li>
+            //<li>{{$fumetto["price"]}}</li>
+            //@endforeach
+        //</div>
+        ?>
+        
         <div class="card">
             <div class="img_container">
                 <img src="/img/oshi_no_ko.jpg" alt="">
