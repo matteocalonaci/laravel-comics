@@ -4,6 +4,11 @@ li {
     padding-bottom: 0.5rem;
 }
 
+span{
+    color: rebeccapurple;
+    padding: 0.5rem;
+}
+
 .links{
     position: absolute;
     top: 1rem;

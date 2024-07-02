@@ -27,3 +27,16 @@ use Illuminate\Support\Facades\Route;
     $data = config("store");
     return view('comics', $data);
 })->name("comics");
+
+// NON FA
+
+// Route::get('/comics/{indice}', function ($indice) {
+  
+//     $fumetti = config("store.comics");
+//     $data = [
+// "fumetto"=> $fumetti[$indice]
+//     ];
+  
+// return view('comics-details', $data);
+
+// })->name("comics-details");

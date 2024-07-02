@@ -3,7 +3,7 @@
 
 @section('main-content')
 <div class="card_container">  
-@foreach($comics as $fumetto)
+@foreach($comics as $indice => $fumetto)
         <div class="card" style="height: 42rem;">
             <div class="img_container">
                 <img src="{{$fumetto['img']}}" alt="">
